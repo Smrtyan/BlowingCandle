@@ -2,6 +2,7 @@ package com.example.ubnt.blowingcandle
 
 import android.Manifest
 import android.app.admin.DevicePolicyManager
+import android.content.Context
 import android.content.pm.PackageManager
 import android.graphics.drawable.Drawable
 import android.media.AudioFormat
@@ -73,6 +74,8 @@ class MainActivity : AppCompatActivity() {
 //                        imageView_candle.setImageResource(R.drawable.candle_3)
 
                         imageView_candle.background = resources.getDrawable(R.drawable.candle_3)
+                        val manager = getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
+                        manager.lockNow()
                     }
                     break
                 }
