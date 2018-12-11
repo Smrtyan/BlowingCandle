@@ -18,4 +18,5 @@ If the noise is up to 70 db, the fire will be put out,then the screen will be lo
 > references
 
 <a href = 'https://blog.csdn.net/u011913612/article/details/77822280'>Android息屏与亮屏</a>
+
 <a href = 'https://developer.android.com/reference/android/media/AudioRecord'>AudioRecord doc</a>
