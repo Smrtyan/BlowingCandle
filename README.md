@@ -16,6 +16,14 @@ If the noise is up to 70 db, the fire will be put out,then the screen will be lo
   <img align='center' width="250"  src="https://github.com/Smrtyan/BlowingCandle/blob/master/WechatIMG7.jpeg"/>
 </div>
 
+## how it works
+
+
+The app start in a while loop, trying to calculate how much noise currently.
+  noise < 50 db,    set a pic of full flame candle to the ImageView,
+50db<=noise<70db, set a pic of half flame candle to the ImageView,
+else            , set a pic of candle with no flame to the  ImageView
+
 
 ## references
 
