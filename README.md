@@ -15,6 +15,7 @@ If the noise is up to 70 db, the fire will be put out,then the screen will be lo
   <img align='center' width="250"  src="https://github.com/Smrtyan/BlowingCandle/blob/master/WechatIMG7.jpeg"/>
 </div>
 
+
 > references
 
 <a href = 'https://blog.csdn.net/u011913612/article/details/77822280'>Android息屏与亮屏</a>
