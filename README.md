@@ -20,7 +20,7 @@ If the noise is up to 70 db, the fire will be put out,then the screen will be lo
 
 
 <pre>
-The app start in a while loop, trying to calculate how much noise currently.
+The app start with a while loop, trying to calculate how much noise currently is.
 
   noise < 50 db , set a pic of full flame candle to the ImageView,
 50db<=noise<70db, set a pic of half flame candle to the ImageView,
