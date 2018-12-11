@@ -13,6 +13,11 @@ import android.os.Bundle
 import android.support.v4.app.ActivityCompat
 import android.util.Log
 import android.widget.ImageView
+import android.R.attr.delay
+import android.os.Handler
+import android.support.v4.os.HandlerCompat.postDelayed
+
+
 
 class MainActivity : AppCompatActivity() {
     var  mLock = Object()
@@ -74,8 +79,12 @@ class MainActivity : AppCompatActivity() {
 //                        imageView_candle.setImageResource(R.drawable.candle_3)
 
                         imageView_candle.background = resources.getDrawable(R.drawable.candle_3)
+
                         val manager = getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
-                        manager.lockNow()
+                        Handler().postDelayed(Runnable {
+                            manager.lockNow()
+                        }, 1000)
+
                     }
                     break
                 }
